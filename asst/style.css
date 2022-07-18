@@ -15,10 +15,13 @@ body{
     background: #F3F1FF;
     font-family: 'Poppins', sans-serif;
 }
+a{
+    text-decoration: none;
+}
 main{
     display: flex;
     justify-content: center;
-    
+  
 }
 .container{
     width: 870px;
@@ -54,7 +57,7 @@ main{
     display: flex;
     align-items: center;
 }
-h3{
+.player h3{
     margin-left: 20px;
     font-size: 18px;
     color: #04101c;
@@ -63,4 +66,29 @@ h3{
 .horizantal-line{
         border: 1px solid #D1D1D1;
         margin-top: 30px;
+}
+/* Top blogs style */
+.top-blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+.blog{
+    display: flex;
+}
+.blog-thumnail img{
+    width: 177px;
+    height: 117px;
+}
+.blog-content{
+    margin-left: 20px;
+}
+.blog-title{
+    margin-top: 30px;
+}
+.blog-para{
+    color: #9F9F9F ;
+}
+.blog-para a{
+    color: #562EFF;
 }
