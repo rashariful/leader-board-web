@@ -1,0 +1,66 @@
+/* -------------------------------
+            font family 
+----------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,500&display=swap');
+
+/* -------------------------------
+           common css/ base css
+----------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #F3F1FF;
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    display: flex;
+    justify-content: center;
+    
+}
+.container{
+    width: 870px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+}
+.main-title{
+    font-weight: 500;
+    font-size: 24px;
+    color: #562EFF;
+    margin-bottom: 40px;
+}
+
+/* top players styles */
+.top-players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+
+
+
+
+
+
+.player img{
+    width: 56px;
+    height: 56px;
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+h3{
+    margin-left: 20px;
+    font-size: 18px;
+    color: #04101c;
+    text-transform: capitalize;
+}
+.horizantal-line{
+        border: 1px solid #D1D1D1;
+        margin-top: 30px;
+}
